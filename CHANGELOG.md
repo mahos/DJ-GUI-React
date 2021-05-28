@@ -2,16 +2,10 @@
 
 Observes [Semantic Versioning](https://semver.org/spec/v2.0.0.html) standard and [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) convention.
 
-<<<<<<< HEAD
-## [Unreleased]
-### Fixed
-- Fixed flexbox grow issues with safari by adding prefix. PR #142
-=======
 ## Unreleased
 ### Fixed
 - Fix redundant double fetch bug PR #150
 - Fixed issue with parsing NaNs and infinities (#147) PR #150
->>>>>>> 2e8791cedd8e13d63f488384ebb1a35390c32fbf
 
 ## [0.1.0] - 2021-03-31
 ### Added
