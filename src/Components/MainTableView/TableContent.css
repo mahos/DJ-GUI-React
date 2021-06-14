@@ -147,7 +147,8 @@
   flex-basis: 1em;
   font-size: 0.85rem;
   overflow-y: scroll;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   text-align: left;
 }
 
@@ -157,6 +158,9 @@
 
 .table th {
   border-bottom: 3px solid #91938F;
+  position: sticky;
+  top: 0;
+  background-color: #FBFBFB;
 }
 
 .table th div, .table td {
